@@ -102,9 +102,40 @@ p{
     width: 15rem;
     padding:.3rem;
 }
+
+.identification {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .patients{
     display:flex;
     flex-direction: column;
     max-width: 15rem;
+    margin-top: -1rem;
 }
 
+.files{
+    display:flex;
+    flex-direction: row;
+}
+
+.file{
+    width:5rem;
+    height: 5rem;
+}
+
+.data{
+    line-height: 0;
+}
+
+.top-info{
+    margin-top:0;
+}
+
+.images{
+    margin: 2rem;
+    width: 14rem;
+    height: 20rem;
+    padding-top:3rem;
+}
